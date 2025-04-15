@@ -1,9 +1,9 @@
 # COMP90042 Project Description
 
 This assignment can be done individually or in teams of two or three or four. We strongly encourage healthy collaboration. See the [University of Melbourne Working in Groups Guide](https://students.unimelb.edu.au/academic-skills/resources/communicating-in-class/communicating-with-peers/working-in-groups). 
-If your team member does not contribute, please contact the lecturer ([Dr. Caren Han](mailto:caren.han@unimelb.edu.au?subject=[COMP90042]%20Project%20Group)) and explain the situation (e.g. by describing the contributions of each collaborator in your team). We strongly recommend to start working early so that you will have ample time to discover stumbling blocks and ask questions.
+If your team member does not contribute, please contact the lecturer ([Dr. Caren Han](mailto:caren.han@unimelb.edu.au?subject=[COMP90042]%20Project%20Group)) and explain the situation (e.g. by describing the contributions of each collaborator in your team). We strongly recommend starting work early so that you will have ample time to discover stumbling blocks and ask questions.
 
-You are free to design the architecture using any of the techniques learned from our lectures and labs (as long as they don't conflict with the project rules (see below). For training and evaluation, we provide you a benchmark dataset in split of training, validation and test. You will use the training and validation set for training/validation while using the test set for leaderboard submission. 
+You are free to design the architecture using any of the techniques learned from our lectures and labs (as long as they don't conflict with the project rules (see below). For training and evaluation, we provide you a benchmark dataset in a split of training, validation and test. You will use the training and validation set for training/validation while using the test set for leaderboard submission. 
 
 For this assignment, **instead of solely focusing on achieving higher performance, you should consider exploring novel architecture design and justify your decision processes**, as grading is by-and-large based on your research process rather than system performance (see grading details below).
 
@@ -25,11 +25,10 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 
 ## <img src="https://em-content.zobj.net/thumbs/120/microsoft/319/calendar_1f4c5.png" width="30" /> 0. Important Dates
 The Important date for the Project can be summarised as follows:
-- **Project Specification Release Date**: 12 April 2024 
-- **Project Group Release Date**: 12 April 2024 
-- **Project Group Revision Due**: 16 April 2024 
+- **Project Specification Release Date**: 16 April 2025 
+- **Project Group Release Date**: 12 April 2025 
+- **Project Group Revision Due**: 16 April 2025 
 - **Project Group Presentation QA**: Week 12 (at your workshop - 20 May - 24 May 2024) 
-- **Project Leaderboard Competition Period**: 26 April - 24 May 2024 **(no extensions possible for the leaderboard)**
 - **Project Final Submission Due**:  26 May 2024 **(no extension will be given less than 2 days before deadline)**
 
 
