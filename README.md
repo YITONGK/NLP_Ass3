@@ -27,32 +27,18 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 The Important date for the Project can be summarised as follows:
 - **Project Specification Release Date**: 17 April 2025 
 - **Project Group Release Date**: 21 April 2025 
-(ONLY IF YOU HAVE any group mates in prior, please submit EOI. NOT COMPULSORY. **Project Group EOI Due Date**: 20 April 2025)
-- **Project Group Presentation QA**: Week 12 (at your workshop - 20 May - 24 May 2024) 
-- **Project Final Submission Due**:  26 May 2024 **(no extension will be given less than 2 days before deadline)**
+<br/>(ONLY IF YOU HAVE any group mates in prior, please submit EOI. **NOT COMPULSORY. Project Group EOI Due Date**: 20 April 2025)
+- **Project Final Submission Due**:  19 May 2025 **(NO extension will be given less than 2 days before deadline)**
+- **Project Peer Review Due**:  28 May 2025 **(NO extension will be given less than 2 days before deadline)**
 
-
-All deadlines are **11:59 PM (Melbourne Time AEST)**.
-
-
-**Project Group Announcement**
-PLEASE ENSURE COMMUNICATION WITH YOUR GROUP MEMBER BY THE GROUP REVISION DEADLINE. Please take a look at the details below.
-
-**Project Group Revision Due**
-If you wish to switch from a group to an individual status, adjustments can be made by the Project Group Change Deadline. However, in that case, you SHOULD receive agreements from your team members before the group revision due.
-NOTE: If you do not communicate with your group member by the Group Revision Deadline at all, and if your group member(s) contact the lecturer (Dr. Caren Han) and requests you to proceed individually, you will be assigned to work on the project individually (or without that team member).
-
-
-**Leaderboard**
-The leaderboard competition will run from 26 April to 24 May 2024, 11:59PM. The closing date is two days before the Final Submission due date.
-
-
-
+All deadlines are **11:59 PM (AEST, Melbourne Time)**.
+<br/>
+**Leaderboard(Optional)** The leaderboard is optional, and will run from 28 April to 17 May 2025, 11:59PM. The closing date is two days before the Final Submission due date.
 
 <br/>
 
 ## <img src="https://em-content.zobj.net/thumbs/120/samsung/349/card-file-box_1f5c3-fe0f.png" width="30" /> 1. DataSet
-| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
+| :exclamation:  You need to put the code that you conduct all actions for this section in the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
 
 The impact of climate change on humanity is a significant concern. However, the increase in unverified statements regarding climate science has led to a distortion of public opinion, underscoring the importance of conducting fact-checks on claims related to climate science. Consider the following claim and related evidence:
