@@ -1,23 +1,23 @@
 # COMP90042 Project Description
 
-This assignment can be done individually or in teams of two or three or four. We strongly encourage healthy collaboration. See the [University of Melbourne Working in Groups Guide](https://students.unimelb.edu.au/academic-skills/resources/communicating-in-class/communicating-with-peers/working-in-groups). 
+This assignment can be done individually or in teams of two or three. We strongly encourage healthy collaboration. See the [University of Melbourne Working in Groups Guide](https://students.unimelb.edu.au/academic-skills/resources/communicating-in-class/communicating-with-peers/working-in-groups). 
 If your team member does not contribute, please contact the lecturer ([Dr. Caren Han](mailto:caren.han@unimelb.edu.au?subject=[COMP90042]%20Project%20Group)) and explain the situation (e.g. by describing the contributions of each collaborator in your team). We strongly recommend starting work early so that you will have ample time to discover stumbling blocks and ask questions.
 
-You are free to design the architecture using any of the techniques learned from our lectures and labs (as long as they don't conflict with the project rules (see below). For training and evaluation, we provide you a benchmark dataset in a split of training, validation and test. You will use the training and validation set for training/validation while using the test set for leaderboard submission. 
+You are free to design the architecture using any of the techniques learned from our lectures and labs (as long as they don't conflict with the Project Rules (see the below Important Notes Section). For training and evaluation, we provide you a benchmark dataset in a split of training, validation and test. You will use the training and validation set for training/validation while using the test set for leaderboard submission. 
 
 For this assignment, **instead of solely focusing on achieving higher performance, you should consider exploring novel architecture design and justify your decision processes**, as grading is by-and-large based on your research process rather than system performance (see grading details below).
 
 
 **Table of Contents**
-- [0. Important Dates (Very Important!!)](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-0-important-dates)
-- [1. DataSet](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-1-dataset)
-- [2. Important Notes](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-2-important-notes)
-- [3. Model Testing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-3-testing-and-evaluation)
-- [4. Report Writing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-4-report-writing)
-- [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-5-project-submission-method-and-grading)
-- [6. Week12 Presentation and Peer Review](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-6-week-12-presentation-and-peer-review)
-- [7. Codalab](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#7-codalab)
-- [8. FAQ](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-8-faq)
+- [0. Important Dates (Very Important!!)](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-0-important-dates)
+- [1. DataSet](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-1-dataset)
+- [2. Important Notes](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-2-important-notes)
+- [3. Model Testing](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-3-testing-and-evaluation)
+- [4. Report Writing](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-4-report-writing)
+- [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-5-project-submission-method-and-grading)
+- [6. Week12 Presentation and Peer Review](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-6-week-12-presentation-and-peer-review)
+- [7. Codalab](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#7-codalab)
+- [8. FAQ](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-8-faq)
 
 <br/>
 <br/>
