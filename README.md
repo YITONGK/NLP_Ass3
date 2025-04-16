@@ -15,7 +15,7 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 - [3. Model Testing](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-3-testing-and-evaluation)
 - [4. Report Writing](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-4-report-writing)
 - [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-5-project-submission-method-and-grading)
-- [6. Week12 Presentation and Peer Review](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-6-week-12-presentation-and-peer-review)
+- [6. Peer Review](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-6-peer-review)
 - [7. Codalab](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#7-codalab)
 - [8. FAQ](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-8-faq)
 
