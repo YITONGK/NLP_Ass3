@@ -181,11 +181,7 @@ You must use LATEX for writing your report. You must include your group number u
 The report should be submitted as a PDF and contain **no more than five(5)** A4 pages of content, excluding  team contribution and references. An appendix is NOT allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
 
 -----
-**The team name (Group Name) MUST be formatted by following these steps:**
-1) Please check your *Workshop DayTime* and *Group Number* from the following [Project Group Sheet](https://docs.google.com/spreadsheets/d/1AUReGexXTE7FiOyLcKYPzoS1mLznyrQq/edit?usp=sharing&ouid=102389134173271487528&rtpof=true&sd=true)
-2) The *Workshop DayTime* is given by the sheet names (e.g. Mon1PM); *Group Number* is in column E within a sheet.
-3) Your team name should be formatted as **WorkshopDayTime_GroupID** (e.g. **Tue9AM_Group1** or **Wed2PM_Group3**). Note: If your workshop starts on the quarter (e.g. Wed 2:15 PM), you should still follow sheet name (e.g. Wed2PM_GroupX).
-
+**The team name (Group Name) will be shared on the project Group Release Date - 21 April 2025 ** 
 ----
 
 Below is a suggested report structure:
@@ -267,6 +263,9 @@ The results are shown on the leaderboard under the “Results” tab, under “O
 
 Note that Codalab allows only 3 submissions per team per day, so please only upload your results when you have made a meaningful change to your system. Please do not over-tune your system based on the ongoing test set, as you are very likely to see a performance drop when it’s evaluated on the final test set, since it probably has overfitted on the ongoing test set (we see this every year in COMP90042 projects, where systems that have a large number of submissions during ongoing evaluation see a large drop in ranking once the final evaluation results are released). Note that Codalab is a little slow to respond at times, so you will need to give it a minute or so to process your file and update the result table.
 
+-----
+**The team name (Group Name) will be shared on the project Group Release Date - 21 April 2025 ** 
+----
 
 
 <br/>
@@ -274,48 +273,8 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 
 
 
-## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" /> 6. Week 12 Presentation and Peer Review
-**Note that You MUST attend the Week 12 Workshop. Otherwise, your presentation mark will be ZERO.**
-[How to watch other peers' recordings and the Workshop flow](https://docs.google.com/document/d/18FjlvCnInhuc-6zLejWzy0Wexb3UgwA4OqoRgqjkhAY/edit)
-
-
-**We do understand you may not have a final result yet (Preliminary result is acceptable).**
-
-* The presentation allows students to communicate their project background, project aims, methods, **(preliminary) results (no need to be finalised as we do understand that you are in the middle of working on the project)** and importance, limitations, conclusions, and future work to a group of peers (students and Academic staff). Students are assessed on their presentation skills, visual communication skills, technical content of the presentation and their answers to questions.
-* Each Group Presentation: 8 minutes (Recording file: no more than 8 mins). Question and Answering: 5 minutes for questions.
-* Peer Review Markers must use the attached marking sheet and write comments on each item to justify their mark and provide feedback to others.
-
-* **The presentation procedure and peer review process.**
-<img src="https://github.com/drcarenhan/COMP90042_2024/blob/main/presentation_marking.jpg" width="80%"/>
-
-* **The peer review process.**
-<img src="https://github.com/drcarenhan/COMP90042_2024/blob/main/peer_marking.jpg" width="80%"/> 
-
-**Group Presentation and Peer Review Submission**
-* Presentation Recording Submission (Deadline **16 May, 11:59PM**): The link will be opened on **10 May**. (Recording file: MP4, AVI, MOV) - e.g. teamname.mp4
-* Presentation Marking Submission (Deadline **26 May, 11:59PM**): The link will be opened on **20 May**. 
-* Peer Review Submission  (Deadline **31 May, 11:59PM**): The link will be opened on **27 May**.
-
-**Late Submission**
-**IMPORTANT: The presentation recording submission deadline is 11:59 PM, 16th May 2024.
-* **If you submit after 11:59 PM, 16th May 2024, you will incur the late penalty (-10% per day), and will receive 0 out of 2 marks in peer review (2 marks).**
-* If you submit the marking or peer review submission after the deadline, you will receive 0 (zero) out of 2 marks in peer review (2 marks)
-* This is because we cannot assign your recording to other students to review.
-
------
-**The team name (Group Name) MUST be formatted by following these steps:**
-1) Please check your *Workshop DayTime* and *Group Number* from the following [Project Group Sheet](https://docs.google.com/spreadsheets/d/1AUReGexXTE7FiOyLcKYPzoS1mLznyrQq/edit?usp=sharing&ouid=102389134173271487528&rtpof=true&sd=true)
-2) The *Workshop DayTime* is given by the sheet names (e.g. Mon1PM); *Group Number* is in column E within a sheet.
-3) Your team name should be formatted as **WorkshopDayTime_GroupID** (e.g. **Tue9AM_Group1** or **Wed2PM_Group3**). Note: If your workshop starts on the quarter (e.g. Wed 2:15 PM), you should still follow sheet name (e.g. Wed2PM_GroupX).
-
-----
-
-
-**Marking Criteria: [Link](https://docs.google.com/document/d/1e7uZSVA4X9Accvw8I52vbcecBMEBgZfGIwseu_hzrNk/edit?usp=sharing)**
-
-**Total 8 Marks**:
-* **Presentation Skill**: 6 Marks
-* **Peer Review Skill**: 2 Marks
+## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" /> 6. Peer Review 
+The peer review process will be shared in Week 8.
  
 
 
@@ -333,12 +292,7 @@ right corner and selecting "Settings".  **Remember to set your team name.**  **S
 team name or incorrect team name format will not be marked.**
 
 -----
-**The team name (Group Name) MUST be formatted by following these steps:**
-1) Please check your *Workshop DayTime* and *Group Number* from the following [Project Group Sheet](https://docs.google.com/spreadsheets/d/1AUReGexXTE7FiOyLcKYPzoS1mLznyrQq/edit?usp=sharing&ouid=102389134173271487528&rtpof=true&sd=true)
-2) The *Workshop DayTime* is given by the sheet names (e.g. Mon1PM); *Group Number* is in column E within a sheet.
-3) Your team name should be formatted as **WorkshopDayTime_GroupID** (e.g. **Tue9AM_Group1** or **Wed2PM_Group3**). Note: If your workshop starts on the quarter (e.g. Wed 2:15 PM), you should still follow sheet name (e.g. Wed2PM_GroupX).
 
-----
 
 You can use this system to submit your test output, by selecting the 
 "Participate" tab and then clicking the "Ongoing evaluation" button, 
