@@ -227,7 +227,7 @@ When you write results, please be aware of the following questions: Are they wha
 
 
 ## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/envelope-with-arrow_1f4e9.png" width="30" /> 5. Project Submission Method and Grading
-**Submission:** LMS Assignment Submission Box: TBA
+**Submission:** LMS Assignment Submission Box will be opened in Week 9.
 
 **You Must Submit Two Files:**
 - **pdf file** (filename format: COMP90042_teamname.pdf): a report using the [ACL template](https://github.com/acl-org/acl-style-files).
