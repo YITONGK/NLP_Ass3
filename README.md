@@ -1,6 +1,6 @@
 # COMP90042 Project Description
 
-**Please check the Lecture Recording first if you have any question about the Assignment 3 - Project (Lecture 13 - Thursday, Apr 17, 2025)**
+Please check the **Lecture Recording first** if you have any questions about the Assignment 3 - Project **(Lecture 13 - Thursday, Apr 17, 2025)**
 
 This assignment can be done in teams of three. We strongly encourage healthy collaboration. See the [University of Melbourne Working in Groups Guide](https://students.unimelb.edu.au/academic-skills/resources/communicating-in-class/communicating-with-peers/working-in-groups). 
 If your team member does not contribute, please contact the lecturer ([Dr. Caren Han](mailto:caren.han@unimelb.edu.au?subject=[COMP90042]%20Project%20Group)) and explain the situation (e.g. by describing the contributions of each collaborator in your team). We strongly recommend starting work early so that you will have ample time to discover stumbling blocks and ask questions.
