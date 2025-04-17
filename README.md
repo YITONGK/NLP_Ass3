@@ -16,7 +16,7 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 - [4. Report Writing](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-4-report-writing)
 - [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-5-project-submission-method-and-grading)
 - [6. Peer Review](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-6-peer-review)
-- [7. Leaderboard](#-leaderboard)
+- [7. Leaderboard](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#7-leaderboard)
 - [8. FAQ](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-8-faq)
 
 <br/>
@@ -55,7 +55,7 @@ It should not be difficult to see that the claim is not supported by the evidenc
 
 More concretely, you will be provided a list of claims and a corpus containing a large number evidence passages (the “knowledge source”), and your system must: (1) search for the most related evidence passages from the knowledge source given the claim; and (2) classify the status of the claim given the evidence in the following 4 classes: {SUPPORTS, REFUTES, NOT_ENOUGH_INFO, DISPUTED}. To build a successful system, it must be able to retrieve the correct set of evidence passages and classify the claim correctly.
 
-Besides system implementation, you must also write a report that describes your fact-checking system, e.g. how the retrieval and classification components work, the reason behind the choices you made and the system’s performance. We hope that you will enjoy the project. To make it more engaging, **we will run the task as a Codalab competition (participation is optional; more details below)**. You will be competing with other students in the class. The following sections give more details on the data format, system evaluation, grading scheme and use of Codalab. Your assessment will be graded based on your report, your performance in the competition (in the form of bonus marks) and your code.
+Besides system implementation, you must also write a report that describes your fact-checking system, e.g. how the retrieval and classification components work, the reason behind the choices you made and the system’s performance. We hope that you will enjoy the project. To make it more engaging, **we will run the task as a leaderboard (participation is optional; more details below)**. You will be competing with other students in the class. The following sections give more details on the data format, system evaluation, grading scheme and use of the leaderboard. Your assessment will be graded based on your report, your performance in the competition (in the form of bonus marks) and your code.
 
 
 You are provided with several files for the project:
@@ -97,7 +97,7 @@ The training set (train-claims.json) should be used for building your models, e.
 
 The development set (dev-claims.json) is formatted like the training set. This will help you make major implementation decisions (e.g. choosing optimal hyper-parameter configurations), and should also be used for detailed analysis of your system — both for measuring performance and for error analysis — in the report.
 
-You will use the test set (test-claims-unlabelled.json) to participate in the Codalab competition. For this reason no labels (i.e. the evidence passages and claim labels) are provided for this partition. You are allowed (and encouraged) to train your final system on both the training and development set so as to maximise performance on the test set, but you should not at any time manually inspect the test dataset; any sign that you have done so will result in loss of marks. In terms of the format of the system output, we have provided dev-claims-predictions.json for this. Note: you’ll notice that it has the same format as the labelled claim files (train-claims.json or dev-claims.json), although the claim_text field is optional (i.e. we do not use this field during evaluation) and you’re free to omit it.
+You will use the test set (test-claims-unlabelled.json) to participate in the leaderboard competition. For this reason no labels (i.e. the evidence passages and claim labels) are provided for this partition. You are allowed (and encouraged) to train your final system on both the training and development set so as to maximise performance on the test set, but you should not at any time manually inspect the test dataset; any sign that you have done so will result in loss of marks. In terms of the format of the system output, we have provided dev-claims-predictions.json for this. Note: you’ll notice that it has the same format as the labelled claim files (train-claims.json or dev-claims.json), although the claim_text field is optional (i.e. we do not use this field during evaluation) and you’re free to omit it.
 
 
 <br/>
@@ -166,7 +166,7 @@ The **three metrics** are computed as follows:
 
 2. **Claim Classification Accuracy (A)**: computes standard classification accuracy for claim label prediction, ignoring the set of evidence passages retrieved by the system. This metric assesses solely how well the system classifies the claim, and is designed to understand how well the classification component of your fact checking system works.
 
-3. **Harmonic Mean of F and A**: computes the harmonic mean of the evidence retrieval F-score and claim classification accuracy. Note that this metric is computed at the end after we have obtained the aggregate (over all claims) F-score and accuracy. This metric is designed to assess both the retrieval and classification components of your system, and as such will be used as **the main metric for ranking systems on Codalab.**
+3. **Harmonic Mean of F and A**: computes the harmonic mean of the evidence retrieval F-score and claim classification accuracy. Note that this metric is computed at the end after we have obtained the aggregate (over all claims) F-score and accuracy. This metric is designed to assess both the retrieval and classification components of your system, and as such will be used as **the main metric for ranking systems on the leaderboard.**
 
 
 The first two metrics (F-score and accuracy) are provided to help diagnose and develop your system. While they are not used to rank your system on the leaderboard, you should document them in your report and use them to discuss the strengths/weaknesses of your system.
@@ -250,15 +250,7 @@ When you write results, please be aware of the following questions: Are they wha
 
 The leaderboard submission is optional. There is no mark for the leaderboard.
 
-
-**Leaderboard Submission Instructions**
-
-Joining the competition on the leaderboard is optional. The Leaderboard link and Submission instruction will be announced on 28 April.
-
-
-
 <br/>
-
 
 
 
@@ -267,10 +259,11 @@ The peer review process will be shared in Week 8.
  
 
 
-## 🏆 Leaderboard
+
+## 7. Leaderboard
 
 The leaderboard submission is optional. There is no mark for the leaderboard.
-TBA
+The Leaderboard link and Submission instruction will be announced on 28 April.
 
 
 
