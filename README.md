@@ -119,7 +119,7 @@ You MUST follow the rules below. Any team found to break any of these rules will
 - No fine-tuning, gradient updates, or weight modifications are performed.
 - The model is open-source and can be loaded entirely on the free version of Google Colab (e.g., via CPU or available Colab GPU/TPU).
 - Models must fit within 12GB RAM and execute on a standard free-tier Colab GPU/TPU runtime without exceeding memory limits.
-- You use only the provided training and development data to construct prompts for in-context learning.
+- You use only the provided training data to construct prompts for in-context learning.
 - Examples of allowed use cases: prompting a small LLM (e.g., TinyLlama, DistilGPT2) via transformers or similar libraries, as long as the model fits on the free version of Google Colab and follows the above constraints.
 
 3) You MUST NOT use:
