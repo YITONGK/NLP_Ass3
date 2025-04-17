@@ -97,7 +97,7 @@ The training set (train-claims.json) should be used for building your models, e.
 
 The development set (dev-claims.json) is formatted like the training set. This will help you make major implementation decisions (e.g. choosing optimal hyper-parameter configurations), and should also be used for detailed analysis of your system — both for measuring performance and for error analysis — in the report.
 
-You will use the test set (test-claims-unlabelled.json) to participate in the leaderboard competition. For this reason no labels (i.e. the evidence passages and claim labels) are provided for this partition. You are allowed (and encouraged) to train your final system on both the training and development set so as to maximise performance on the test set, but you should not at any time manually inspect the test dataset; any sign that you have done so will result in loss of marks. In terms of the format of the system output, we have provided dev-claims-predictions.json for this. Note: you’ll notice that it has the same format as the labelled claim files (train-claims.json or dev-claims.json), although the claim_text field is optional (i.e. we do not use this field during evaluation) and you’re free to omit it.
+You will use the test set (test-claims-unlabelled.json) to participate in the leaderboard. For this reason, no labels (i.e. the evidence passages and claim labels) are provided for this partition. You are allowed (and encouraged) to train your final system on both the training and development set so as to maximise performance on the test set, but you should not at any time manually inspect the test dataset; any sign that you have done so will result in loss of marks. In terms of the format of the system output, we have provided dev-claims-predictions.json for this. Note: you’ll notice that it has the same format as the labelled claim files (train-claims.json or dev-claims.json), although the claim_text field is optional (i.e. we do not use this field during evaluation) and you’re free to omit it.
 
 
 <br/>
@@ -106,16 +106,16 @@ You will use the test set (test-claims-unlabelled.json) to participate in the le
 
 ## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/desktop-computer_1f5a5-fe0f.png" width="30" /> 2. Important Notes
 
-| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
+| :exclamation:  You need to put the code that you conduct all actions for this section in the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
 
 **Project Rules**
 
-You MUST follow the rules below. Any team found to break any of these rules will receive zero mark to their project.
+You MUST follow the rules below. Any team found to break any of these rules will receive zero marks for their project.
 
-1) You're encouraged to explore different models for the task. In terms of sequence processing components, you MUST use one of the following architectures: RNN, LSTM, GRU, or Transformer. You may use deep-learning libraries (e.g. PyTorch) to import these sequence processing components (i.e., you do not have to implement RNN from scratch). You should read relevant publications to guide your system design, but you MUST NOT copy any open-source code from publications (i.e., the fact-checking system must be implemented by you).
+1) You're encouraged to explore different models for the task. Regarding sequence processing components, you MUST use one of the following architectures: RNN, LSTM, GRU, or Transformer. You may use deep-learning libraries (e.g. PyTorch) to import these sequence processing components (i.e., you do not have to implement RNN from scratch). You should read relevant publications to guide your system design, but you MUST NOT copy any open-source code from publications (i.e., the fact-checking system must be implemented by you).
 
-2) You are allowed to use in-context learning with open-source LLMs that can be executed within the free version of Google Colab, provided that:
+2) You are allowed to use in-context learning with open-source Large Language Models (LLMs) that can be executed within the free version of Google Colab, provided that:
 - No fine-tuning, gradient updates, or weight modifications are performed.
 - The model is open-source and can be loaded entirely on the free version of Google Colab (e.g., via CPU or available Colab GPU/TPU).
 - Models must fit within 12GB RAM and execute on a standard free-tier Colab GPU/TPU runtime without exceeding memory limits.
