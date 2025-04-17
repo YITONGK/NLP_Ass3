@@ -27,7 +27,7 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 The Important date for the Project can be summarised as follows:
 - **Project Specification Release Date**: 17 April 2025 
 - **Project Group Release Date**: 21 April 2025 
-<br/><code style="color : red">(ONLY IF YOU HAVE any group mates in prior, please submit EOI. **NOT COMPULSORY. Project Group EOI Due Date**: 20 April 2025)</code>
+<br/><code style="color : red">(ONLY IF YOU HAVE any group mates in prior, please submit [Project Group EOI](https://forms.gle/nwpobJUsQtdweuqP8). **NOT COMPULSORY. Project Group EOI Due Date**: 20 April 2025)</code>
 - **Project Final Submission Due**:  19 May 2025 **(NO extension will be given less than 2 days before deadline)**
 - **Project Peer Review Due**:  28 May 2025 **(NO extension will be given less than 2 days before deadline)**
 
@@ -51,7 +51,7 @@ The impact of climate change on humanity is a significant concern. However, the 
 2. The 1990 IPCC First Assessment Report estimated that equilibrium climate sensitivity to a doubling of CO2 lay between 1.5 and 4.5 °C (2.7 and 8.1 °F), with a "best guess in the light of current knowledge" of 2.5 °C (4.5 °F).
 
 
-It should not be difficult to see that the claim is not supported by the evidence passages, and assuming the source of the evidence is reliable, such a claim is misleading. The challenge of the project is to develop an automated fact-checking system where given a claim, the goal is to find related evidence passages from a knowledge source and classify whether the claim is supported by the evidence.
+It should not be difficult to see that the claim is not supported by the evidence passages, and assuming the source of the evidence is reliable, such a claim is misleading. The challenge of the project is to develop an automated fact-checking system where, given a claim, the goal is to find related evidence passages from a knowledge source and classify whether the claim is supported by the evidence.
 
 More concretely, you will be provided a list of claims and a corpus containing a large number evidence passages (the “knowledge source”), and your system must: (1) search for the most related evidence passages from the knowledge source given the claim; and (2) classify the status of the claim given the evidence in the following 4 classes: {SUPPORTS, REFUTES, NOT_ENOUGH_INFO, DISPUTED}. To build a successful system, it must be able to retrieve the correct set of evidence passages and classify the claim correctly.
 
