@@ -123,6 +123,7 @@ You MUST follow the rules below. Any team found to break any of these rules will
 - Models must fit within 12GB RAM and execute on a standard free-tier Colab GPU/TPU runtime without exceeding memory limits.
 - You use only the provided training data to construct prompts for in-context learning.
 - Examples of allowed use cases: prompting a small LLM (e.g., TinyLlama, DistilGPT2) via transformers or similar libraries, as long as the model fits on the free version of Google Colab and follows the above constraints.
+- You use the open-source LLMs or models published before 17 April, 2025. 
 
 3) You MUST NOT use:
 - Any closed-source APIs or models (e.g., OpenAI GPT-3/4, Claude, Gemini, Copilot).
