@@ -255,7 +255,9 @@ The leaderboard submission is optional. There is no mark for the leaderboard.
 
 
 ## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" /> 6. Peer Review 
-The peer review process will be shared in Week 8.
+The peer review will start **from the 22nd of May to the 28th of May**. 
+
+The peer review procedure will be shared in Week 9.
  
 
 
