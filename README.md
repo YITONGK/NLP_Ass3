@@ -271,7 +271,7 @@ The peer review process will be shared in Week 8.
 
 
 
-## [🏆 Leaderboard](#-leaderboard) 7. Leaderboard
+## 7. Leaderboard
 
 The leaderboard submission is optional. There is no mark for the leaderboard.
 TBA
