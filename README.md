@@ -261,13 +261,15 @@ The peer review procedure will be shared in Week 9.
  
 
 
+<br/>
 
-## 4. 🏆 Leaderboard
+## 7. 🏆 Leaderboard
 
 The leaderboard submission is optional. There is no mark for the leaderboard.
 The Leaderboard link and Submission instruction will be announced on 28 April.
 
 
+<br/>
 
 ## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" /> 8. FAQ
 **The FAQ will be updated based on the student's questions.
