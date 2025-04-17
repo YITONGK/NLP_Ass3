@@ -16,7 +16,7 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 - [4. Report Writing](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-4-report-writing)
 - [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-5-project-submission-method-and-grading)
 - [6. Peer Review](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-6-peer-review)
-- [7. Leaderboard](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#7-leaderboard)
+- [7. Leaderboard](#7-️-leaderboard)
 - [8. FAQ](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-8-faq)
 
 <br/>
@@ -262,7 +262,7 @@ The peer review procedure will be shared in Week 9.
 
 
 
-## 7. Leaderboard
+## 4. 🏆 Leaderboard
 
 The leaderboard submission is optional. There is no mark for the leaderboard.
 The Leaderboard link and Submission instruction will be announced on 28 April.
