@@ -256,9 +256,6 @@ The leaderboard submission is optional. There is no mark for the leaderboard.
 Joining the competition on the leaderboard is optional. The Leaderboard link and Submission instruction will be announced on 28 April.
 
 
-**The team name (Group Name) will be shared on the project Group Release Date - 21 April 2025 ** 
-----
-
 
 <br/>
 
