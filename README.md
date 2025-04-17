@@ -16,7 +16,7 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 - [4. Report Writing](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-4-report-writing)
 - [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-5-project-submission-method-and-grading)
 - [6. Peer Review](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-6-peer-review)
-- [7. Codalab](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#7-codalab)
+- [7. Leaderboard](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#7-leaderboard)
 - [8. FAQ](https://github.com/drcarenhan/COMP90042_2025?tab=readme-ov-file#-8-faq)
 
 <br/>
@@ -113,25 +113,32 @@ You will use the test set (test-claims-unlabelled.json) to participate in the Co
 
 You MUST follow the rules below. Any team found to break any of these rules will receive zero mark to their project.
 
-1) You're encouraged to explore different models for the task, but in terms of sequence processing components you MUST use one of the following architectures: RNN, LSTM, GRU, and Transformer. You are allowed to use deep-learning libraries (e.g. pytorch) to import these sequence processing components (i.e. you do not have to code RNN from scratch). You should read relevant publications to come up with a sensible design for your fact-checking system, but you MUST NOT copy any open-source code from any publications (in other words, you MUST implement the fact-checking system yourself).
+1) You're encouraged to explore different models for the task. In terms of sequence processing components, you MUST use one of the following architectures: RNN, LSTM, GRU, or Transformer. You may use deep-learning libraries (e.g. PyTorch) to import these sequence processing components (i.e., you do not have to implement RNN from scratch). You should read relevant publications to guide your system design, but you MUST NOT copy any open-source code from publications (i.e., the fact-checking system must be implemented by you).
 
-2) You MUST NOT use any pretrained word embeddings (e.g. Word2Vec), pretrained language model weights or checkpoints (e.g. BERT checkpoints), or any closed-source models (OpenAI GPT-3). In other words, you MUST train your system from scratch, using the data provided in the project.
+2) You are allowed to use in-context learning with open-source LLMs that can be executed within the free version of Google Colab, provided that:
+- No fine-tuning, gradient updates, or weight modifications are performed.
+- The model is open-source and can be loaded entirely on the free version of Google Colab (e.g., via CPU or available Colab GPU/TPU).
+- Models must fit within 12GB RAM and execute on a standard free-tier Colab GPU/TPU runtime without exceeding memory limits.
+- You use only the provided training and development data to construct prompts for in-context learning.
+- Examples of allowed use cases: prompting a small LLM (e.g., TinyLlama, DistilGPT2) via transformers or similar libraries, as long as the model fits on the free version of Google Colab and follows the above constraints.
 
-3) The following deep-learning libraries are allowed: pytorch, keras, and tensorflow. Huggingface is not allowed. Standard python libraries (e.g. numpy and matplotlib) and NLP preprocessing toolkits (e.g. NLTK and Spacy) are allowed.
+3) You MUST NOT use:
+- Any closed-source APIs or models (e.g., OpenAI GPT-3/4, Claude, Gemini, Copilot).
+- Any hand-crafted if-then rules for classification or prediction logic.
 
-4) The model described in the report MUST be faithful to the submitted code and running log that you submit. You MUST include the running log (with the reported result/performance) in the submitted ipynb file (more details about submission below). 
+4) The following deep-learning libraries are allowed: PyTorch, Keras, and TensorFlow. You may use Huggingface Transformers only for model loading and inference in the context of in-context learning, as per the above rules. Standard Python libraries (e.g., numpy, matplotlib) and NLP preprocessing toolkits (e.g., nltk, spacy) are also allowed.
 
-5) You are allowed to use code from the workshop (provided that they don't conflict with any project rules), but you MUST NOT use any open source project code from GitHub or other platforms.
+5) The model described in the report MUST be faithful to the submitted code and running log you submit. You MUST include the running log (with the reported result/performance) in the submitted ipynb file (more details about submission below). 
 
-6) You MUST NOT submit the prediction result (to the codalab leaderboard) that is not produced from your code.
+6) You are allowed to use code provided in the workshop, as long as it does not violate any of the above constraints. You MUST NOT use open-source project code from GitHub or other public repositories.
 
-7) You MUST NOT use any rule-based techniques.
+7) YOU MUST NOT submit any results to the leaderboard that were not generated directly by your final submitted code. Any post-hoc modifications to results (e.g., manual corrections or edits outside the code) are strictly prohibited.
 
-8) You MUST NOT use models that cannot be run on Colab (e.g. very large models that don’t fit on the GPU on Colab).
+8) You MUST NOT use models that cannot be run in the free version of Colab (e.g., models too large to load on a Colab instance).
 
-9) You MUST use the given [code template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) for development.
+9) You MUST use the given [code template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) for development. You may extend or restructure the provided code template, but core components must be preserved for grading compatibility.
 
-10) You MUST train your system using only the provided data, which includes a training and a development. 
+10) You MUST use only the provided training and development data when building and evaluating your system.
 
 <br/>
 
@@ -164,9 +171,9 @@ The **three metrics** are computed as follows:
 
 The first two metrics (F-score and accuracy) are provided to help diagnose and develop your system. While they are not used to rank your system on the leaderboard, you should document them in your report and use them to discuss the strengths/weaknesses of your system.
 
-The example prediction file, dev-claims-baseline.json, is the output of a baseline system on the development set. This file will help you understand the required file format for creating your development output (for tuning your system using eval.py) and your test output (for submission to the Codalab competition).
+The example prediction file, dev-claims-baseline.json, is the output of a baseline system on the development set. This file will help you understand the required file format for creating your development output (for tuning your system using eval.py) and your test output (for submission to the Leaderboard).
 
-Note that this is not a realistic baseline, and you might find that your system performs worse than it. The reason for this is that this baseline constructs its output in the following manner: (1) the claim labels are randomly selected; and (2) the set of evidence passages combines several randomly selected ground truth passages and several randomly selected passages from the knowledge source. We created such a ‘baseline’ because a true random baseline that selects a random set of evidence passages will most probably produce a zero F-score for evidence retrieval (and consequently zero for the harmonic mean of F-score and accuracy), and it won’t serve as a good diagnostic example to explain the metrics. To clarify, this baseline will not be used in any way for ranking submitted systems on Codalab, and is provided solely to illustrate the metrics and an example system output.
+Note that this is not a realistic baseline, and you might find that your system performs worse than it. The reason for this is that this baseline constructs its output in the following manner: (1) the claim labels are randomly selected; and (2) the set of evidence passages combines several randomly selected ground truth passages and several randomly selected passages from the knowledge source. We created such a ‘baseline’ because a true random baseline that selects a random set of evidence passages will most probably produce a zero F-score for evidence retrieval (and consequently zero for the harmonic mean of F-score and accuracy), and it won’t serve as a good diagnostic example to explain the metrics. To clarify, this baseline will not be used in any way for ranking submitted systems on the leaderboard, and is provided solely to illustrate the metrics and an example system output.
 
 
 <br/>
@@ -201,7 +208,7 @@ Below is a suggested report structure:
 * **Evaluation method**: If you’re defining your own metrics (for diagnostic purposes), be clear as to what you’re hoping to measure with each evaluation method (whether quantitative or qualitative, automatic or human-defined!), and how it’s defined.
 * **Experimental details**: Report how you ran your experiments (e.g., model configurations, learning rate, training time, etc.)
 
-**Results**: Report the quantitative results that you have found so far. Use a table or plot to compare results and compare against baselines. You must report dev results, and also test results if you participate in the Codalab competition.
+**Results**: Report the quantitative results that you have found so far. Use a table or plot to compare results and compare against baselines. You must report dev results, and also test results if you participate in the leaderboard.
 When you write results, please be aware of the following questions: Are they what you expected?; Better than you expected?; Is It worse than you expected?; Why do you think that is?; What does that tell you about your approach?
 
 **Conclusion**. Summarise the main findings of your project, and what you have learnt. Highlight your achievements, and note the primary limitations of your work. If you like, you can describe avenues for future work.
@@ -246,18 +253,7 @@ The leaderboard submission is optional. There is no mark for the leaderboard.
 
 **Leaderboard Submission Instructions**
 
-Joining the competition on Codalab is optional. The Codalab competition link will be announced on Canvas later (28 April).
-Regardless of whether you join the competition or not, you need to include the output log in the ipynb files for the development set.
-
-Should you decide to participate, your team must nominate one member to join the competition (via the “Participate” tab) using their student.unimelb.edu.au email address. Each team can only have 1 member joining the competition. Any team that is found to have participated with multiple accounts will be automatically suspended from the competition and graded zero for the project.
-Once you have joined the competition, please edit your account details by clicking on your login in the top right corner and selecting “Settings”. Set your group name. 
-Submissions which have no group name will not be marked.
-
-To submit your test output, select the “Participate” tab, click the “Ongoing evaluation” button, and then click “Submit”. This will allow you to select a file, which is uploaded to the Codalab server, which will evaluate your results and add an entry to the leaderboard. Your file should be a zip archive containing a single file named test-claims-baseline.json. The JSON file should produce the claim labels and evidence passages for all the claims in test-claims-unlabelled.json. The format of the JSON file should follow the format of the provided baseline system (i.e. dev-claims-baseline.json). The system will produce an error message if the filename is different, as it cannot process your file.
-
-The results are shown on the leaderboard under the “Results” tab, under “Ongoing Evaluation”. The competition ends at on 17th May, after which submissions will no longer be accepted (extensions can not be granted to this deadline). At this point, the “Final Evaluation” results will be revealed. These two sets of results reflect evaluation on different subsets of the test data. The best score on the ongoing evaluation may not be the best on the final evaluation, and we will be using the final evaluation scores in the assessment. The final result of your best submission(s) can now be discussed in the report, which is due at 11.59PM, 26 May 2024. Note: if your team did not participate, then you won't have any test results to report, so focus on reporting the development results.
-
-Note that Codalab allows only 3 submissions per team per day, so please only upload your results when you have made a meaningful change to your system. Please do not over-tune your system based on the ongoing test set, as you are very likely to see a performance drop when it’s evaluated on the final test set, since it probably has overfitted on the ongoing test set (we see this every year in COMP90042 projects, where systems that have a large number of submissions during ongoing evaluation see a large drop in ranking once the final evaluation results are released). Note that Codalab is a little slow to respond at times, so you will need to give it a minute or so to process your file and update the result table.
+Joining the competition on the leaderboard is optional. The Leaderboard link and Submission instruction will be announced on 28 April.
 
 
 **The team name (Group Name) will be shared on the project Group Release Date - 21 April 2025 ** 
@@ -275,48 +271,11 @@ The peer review process will be shared in Week 8.
 
 
 
-## 7. Codalab
+## 7. Leaderboard
 
-Codalab competition website: [Link](https://codalab.lisn.upsaclay.fr/competitions/18719?secret_key=dbe1f3f8-4f05-4dcd-9e56-4b02708fd3be)
+The leaderboard submission is optional. There is no mark for the leaderboard.
+TBA
 
-You should elect one member in your team to participate in the competition (i.e. we do not want everyone in the team to sign up for the competition). The elected member will be responsible for uploading your team's system results and they should sign up for a Codalab account **using their {student.unimelb.edu.au} address** and request to join the 
-competition via the "Participate" tab. Only 
-students enrolled in the subject will be permitted to join.
-
-After joining the competition, please edit your account details by clicking on your login in the top 
-right corner and selecting "Settings".  **Remember to set your team name.**  **Submissions which have no 
-team/group name or incorrect team/group name format will not be marked.**
-
------
-
-
-You can use this system to submit your test output, by selecting the 
-"Participate" tab and then clicking the "Ongoing evaluation" button, 
-and then "Submit". This will allow you to select a file, which is 
-uploaded to the Codalab server, which will evaluate your results and add 
-an entry to the leaderboard. Your file should be a **zip archive** 
-containing a single file named **test-output.json**.
-The JSON file should produce the claim labels and evidence passages for all the claims in **test-claims-unlabelled.json**. The format of the JSON file should follow the format of the provided baseline system (i.e. **dev-claims-baseline.json**).
-**The system  will produce an error message if the filename is different, as it cannot 
-process your file.**
-
-The results are shown on the leaderboard under the "Results" tab, 
-under "Ongoing Evaluation".  The 
-competition ends at 11:59pm on 17th May 2024, after which submissions will no 
-longer be accepted (extensions can not be granted to this 
-deadline). At this point the "Final Evaluation" results will be 
-revealed.  These two sets of results reflect evaluation on different 
-subsets of the test data. The best score on the ongoing evaluation may 
-not be the best on the final evaluation, and we will be using the final 
-evaluation scores for ranking systems on the leaderboard. **The final result of your best 
-submission(s) can now be discussed in the report**, which is due at 11:59pm 
-on 19th May.
-
-Note that Codalab allows only 3 submissions per user per day, so please 
-only upload your results when you have made a meaningful change to your 
-system. Note that the system is a little slow to respond at times, so 
-you will need to give it a minute or so to process your file and update 
-the result table. 
 
 
 ## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" /> 8. FAQ
