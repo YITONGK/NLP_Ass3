@@ -279,5 +279,5 @@ The Leaderboard link and Submission instruction will be announced on 28 April.
 
 For a better and more supportive learning environment, our team summarised the FAQs based on the topic and would like to share the following posts (with our teaching team’s answer).  Please check the FAQ summary.
 
-**FAQ Discussion Board Summary: TBA with more Questions**
+**FAQ Discussion Board Summary: [FAQ and Anwers Summary Link](https://edstem.org/au/courses/22012/discussion/2600395)**
 
