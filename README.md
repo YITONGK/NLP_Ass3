@@ -190,7 +190,7 @@ You must use LATEX for writing your report. You must include your group number u
 
 The report should be submitted as a PDF and contain **no more than five(5)** A4 pages of content, excluding  team contribution and references. An appendix is NOT allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
 
-**The team name (Group Name) will be shared on the project Group Release Date - 21 April 2025**
+**Click the link to view your project group [Project Group Link](https://docs.google.com/spreadsheets/d/1Xl6P93WVibbnHOPlWTB_o6IGEkBeYDTKR5M4ZuONeV4/edit?usp=sharing)**
 
 -----
 Below is a suggested report structure:
