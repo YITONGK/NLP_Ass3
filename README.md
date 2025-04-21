@@ -28,7 +28,7 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 ## <img src="https://em-content.zobj.net/thumbs/120/microsoft/319/calendar_1f4c5.png" width="30" /> 0. Important Dates
 The Important date for the Project can be summarised as follows:
 - **Project Specification Release Date**: 17 April 2025 
-- **Project Group Release Date**: 21 April 2025 
+- **Project Group Release Date**: 21 April 2025 (Click the link to view your project group [Project Group Link](https://docs.google.com/spreadsheets/d/1Xl6P93WVibbnHOPlWTB_o6IGEkBeYDTKR5M4ZuONeV4/edit?usp=sharing))
 <br/><code style="color:red">~~(ONLY IF YOU HAVE any group mates in prior, please submit Project Group EOI. **NOT COMPULSORY. Project Group EOI Due Date**: 20 April 2025)~~</code>
 - **Project Final Submission Due**:  19 May 2025 **(NO extension will be given less than 2 days before deadline)**
 - **Project Peer Review Due**:  28 May 2025 **(NO extension will be given less than 2 days before deadline)**
