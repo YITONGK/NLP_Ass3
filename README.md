@@ -269,8 +269,10 @@ The peer review procedure will be shared in Week 9.
 ## <img src="https://em-content.zobj.net/source/skype/289/trophy_1f3c6.png" width="30" /> 7. Leaderboard
 
 The leaderboard submission is optional. There is no mark for the leaderboard.
-The Leaderboard link and Submission instruction will be announced on 28 April.
+The Leaderboard link and Submission instructions will be announced on 28 April.
 
+[Leaderboard Link](https://www.codabench.org/competitions/7707/?secret_key=62a88bc5-d1ce-4514-8e4c-033cd61c90c7)
+The instructions can be found in the leaderboard - Submission Instructions!
 
 <br/>
 
