@@ -1,0 +1,3 @@
+data/evidence.json
+preprocessed/evidence_stemmed.json
+preprocessed/evidence_vecs.pt
