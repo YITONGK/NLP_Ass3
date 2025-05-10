@@ -12,11 +12,13 @@ nltk.download('wordnet')
 # ── 1) 加载原始训练集 ───────────────────────────────────────────────
 DATA_DIR     = Path("data")
 TRAIN_J      = DATA_DIR/"train-claims.json"
-OUT_AUG_J    = DATA_DIR/"train-claims-augmented.json"
+DEV_J        = DATA_DIR/"dev-claims.json"
+OUT_AUG_J    = DATA_DIR/"dev-claims-augmented.json"
 
 with open(TRAIN_J, "r", encoding="utf-8") as f:
     train = json.load(f)
-
+with open(DEV_J, "r", encoding="utf-8") as f:
+    dev = json.load(f)
 # ── 2) 定义 EDA 函数 ────────────────────────────────────────────────
 
 def get_synonyms(word):
@@ -82,6 +84,7 @@ print("Before augmentation:", counts)
 augmented = {}
 # 先把原始都拷贝过去
 augmented.update(train)
+augmented.update(dev)
 
 # 按类别收集所有 id
 ids_by_label = {}
