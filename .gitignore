@@ -5,4 +5,4 @@ preprocessed/evidence_vecs.pt
 *.zip
 *.pt
 
-my_bert_classifier/*
+my_bert_classifier/*my_bert_classifier/model.safetensors
