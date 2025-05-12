@@ -1,4 +1,6 @@
 *.pt
 *.zip
-data/evidence.json
+*.npy
+*.model
+*.json
 preprocessed/*
