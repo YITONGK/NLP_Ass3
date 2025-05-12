@@ -1,0 +1,4 @@
+*.pt
+*.zip
+data/evidence.json
+preprocessed/*
