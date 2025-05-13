@@ -6,3 +6,12 @@ preprocessed/evidence_vecs.pt
 *.pt
 
 my_bert_classifier/*my_bert_classifier/model.safetensors
+
+*.pt
+*.zip
+*.npy
+*.model
+*.json
+*.pkl
+preprocessed/*
+model/*
