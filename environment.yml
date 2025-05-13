@@ -1,0 +1,41 @@
+name: nlp_final
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - nltk
+  - spacy
+  - faiss-cpu
+  - pytorch
+  - transformers
+  - sentence-transformers
+  - tqdm
+  - ipykernel
+  - pip
+  - pip:
+      - lemminflect
+      - datasets
+
+name: nlp_final
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - nltk
+  - spacy
+  - faiss-cpu
+  - pytorch
+  - tqdm
+  - ipykernel
+  - pip
+  - pip:
+      - lemminflect
+      - datasets
+      - transformers==4.36.2
+      - sentence-transformers==2.4.0

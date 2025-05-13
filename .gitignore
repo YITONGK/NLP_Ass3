@@ -3,4 +3,6 @@
 *.npy
 *.model
 *.json
+*.pkl
 preprocessed/*
+model/*
