@@ -4,5 +4,7 @@
 *.model
 *.json
 *.pkl
+*pth
 preprocessed/*
 model/*
+results/*
